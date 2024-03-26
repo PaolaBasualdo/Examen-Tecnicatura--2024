@@ -20,5 +20,5 @@ function correccion(nota) {
     }
 }
 
-console.log(correccion(4)); 
+console.log(correccion(12)); 
    
