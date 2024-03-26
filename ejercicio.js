@@ -7,6 +7,10 @@ Nota es menor a 7 y no es LIBRE - REGULAR
 Nota mayor que 6  - PROMOCIONADO.*/
 
 function correccion(nota) {
+    nota = parseInt(nota); 
+
+ 
+
     if (nota < 4) {
         return "LIBRE";
     } else if (nota < 7) {
@@ -15,4 +19,6 @@ function correccion(nota) {
         return "PROMOCIONADO";
     }
 }
-console.log(correccion(9));
+
+console.log(correccion(4)); 
+   
