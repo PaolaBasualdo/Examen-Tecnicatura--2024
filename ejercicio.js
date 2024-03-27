@@ -15,10 +15,10 @@ function correccion(nota) {
         return "LIBRE";
     } else if (nota < 7) {
         return "REGULAR";
-    } else {
+    } else if (nota >6 && nota<=10){
         return "PROMOCIONADO";
     }
 }
 
-console.log(correccion(12)); 
+console.log(correccion(10)); 
    
